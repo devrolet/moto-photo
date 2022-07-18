@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostCreateComponent implements OnInit {
 
+  newPost = 'No Content';
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
   onAddPost() {
-    alert('Post Added');
+    this.newPost = "The user's post";
   }
 
 }
