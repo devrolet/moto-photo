@@ -11,7 +11,7 @@ export class PostCreateComponent implements OnInit {
 
   enteredTitle = "";
   enteredContent = "";
-  @Output() postCreated = new EventEmitter();
+  @Output() postCreated = new EventEmitter<Post>();
 
   constructor() { }
 
