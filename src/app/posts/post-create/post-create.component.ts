@@ -3,6 +3,8 @@ import { NgForm } from '@angular/forms';
 
 import { Post } from '../post.model'
 
+import { Post } from '../post.model'
+
 @Component({
   selector: 'app-post-create',
   templateUrl: './post-create.component.html',
