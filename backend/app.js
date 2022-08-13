@@ -6,13 +6,7 @@ const Post = require('./models/post');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://chill-admin:SP3P1UOHTirhkZ8T@cluster0.rp5gzuq.mongodb.net/mean?retryWrites=true&w=majority")
-    .then(() => {
-        console.log('Connected to database');
-    })
-    .catch(() => {
-        console.log('Database connection failed');
-    });
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
